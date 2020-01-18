@@ -15,6 +15,18 @@
 		8B5D527F23D2B04200A914D0 /* UITableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D527E23D2B04200A914D0 /* UITableView+Dequeue.swift */; };
 		8B5D528123D2B05900A914D0 /* UITableView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528023D2B05900A914D0 /* UITableView+RegisterCell.swift */; };
 		8B5D528323D2B06D00A914D0 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528223D2B06D00A914D0 /* UITableViewCell+Identifier.swift */; };
+		8B5D528623D2B0B400A914D0 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528523D2B0B400A914D0 /* UIColor+Custom.swift */; };
+		8B5D528823D2B10200A914D0 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528723D2B10200A914D0 /* EventTableViewCell.swift */; };
+		8B5D528A23D2B11C00A914D0 /* ParkingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528923D2B11C00A914D0 /* ParkingTableViewCell.swift */; };
+		8B5D528C23D2B13A00A914D0 /* PublicTransportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528B23D2B13A00A914D0 /* PublicTransportTableViewCell.swift */; };
+		8B5D528E23D2B19200A914D0 /* PublicTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528D23D2B19200A914D0 /* PublicTransport.swift */; };
+		8B5D529023D2B19B00A914D0 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D528F23D2B19B00A914D0 /* Parking.swift */; };
+		8B5D529223D2B1A600A914D0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529123D2B1A600A914D0 /* Event.swift */; };
+		8B5D529423D2B38B00A914D0 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529323D2B38B00A914D0 /* Schedule.swift */; };
+		8B5D529623D2B50D00A914D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529523D2B50D00A914D0 /* User.swift */; };
+		8B5D529A23D2B56100A914D0 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529923D2B56100A914D0 /* HTTPService.swift */; };
+		8B5D529C23D2B5CF00A914D0 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529B23D2B5CF00A914D0 /* HTTPError.swift */; };
+		8B5D529E23D2BD4200A914D0 /* ScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D529D23D2BD4200A914D0 /* ScheduleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,18 @@
 		8B5D527E23D2B04200A914D0 /* UITableView+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeue.swift"; sourceTree = "<group>"; };
 		8B5D528023D2B05900A914D0 /* UITableView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCell.swift"; sourceTree = "<group>"; };
 		8B5D528223D2B06D00A914D0 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		8B5D528523D2B0B400A914D0 /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
+		8B5D528723D2B10200A914D0 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		8B5D528923D2B11C00A914D0 /* ParkingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTableViewCell.swift; sourceTree = "<group>"; };
+		8B5D528B23D2B13A00A914D0 /* PublicTransportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTransportTableViewCell.swift; sourceTree = "<group>"; };
+		8B5D528D23D2B19200A914D0 /* PublicTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTransport.swift; sourceTree = "<group>"; };
+		8B5D528F23D2B19B00A914D0 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		8B5D529123D2B1A600A914D0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8B5D529323D2B38B00A914D0 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		8B5D529523D2B50D00A914D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8B5D529923D2B56100A914D0 /* HTTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		8B5D529B23D2B5CF00A914D0 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		8B5D529D23D2BD4200A914D0 /* ScheduleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +130,9 @@
 		8B5D527523D2AD5300A914D0 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8B5D528723D2B10200A914D0 /* EventTableViewCell.swift */,
+				8B5D528923D2B11C00A914D0 /* ParkingTableViewCell.swift */,
+				8B5D528B23D2B13A00A914D0 /* PublicTransportTableViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -113,6 +140,11 @@
 		8B5D527623D2AD5700A914D0 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				8B5D528D23D2B19200A914D0 /* PublicTransport.swift */,
+				8B5D528F23D2B19B00A914D0 /* Parking.swift */,
+				8B5D529123D2B1A600A914D0 /* Event.swift */,
+				8B5D529323D2B38B00A914D0 /* Schedule.swift */,
+				8B5D529523D2B50D00A914D0 /* User.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -137,6 +169,7 @@
 				8B5D527623D2AD5700A914D0 /* model */,
 				8B5D527523D2AD5300A914D0 /* view */,
 				8B5D527423D2AD4E00A914D0 /* controller */,
+				8B5D529823D2B53E00A914D0 /* services */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -151,6 +184,7 @@
 		8B5D527C23D2AFFC00A914D0 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8B5D528423D2B0A500A914D0 /* UIColor+Extensions */,
 				8B5D527D23D2B02A00A914D0 /* UIKit+Extenstions */,
 			);
 			path = extensions;
@@ -164,6 +198,24 @@
 				8B5D528223D2B06D00A914D0 /* UITableViewCell+Identifier.swift */,
 			);
 			path = "UIKit+Extenstions";
+			sourceTree = "<group>";
+		};
+		8B5D528423D2B0A500A914D0 /* UIColor+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D528523D2B0B400A914D0 /* UIColor+Custom.swift */,
+			);
+			path = "UIColor+Extensions";
+			sourceTree = "<group>";
+		};
+		8B5D529823D2B53E00A914D0 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D529923D2B56100A914D0 /* HTTPService.swift */,
+				8B5D529B23D2B5CF00A914D0 /* HTTPError.swift */,
+				8B5D529D23D2BD4200A914D0 /* ScheduleService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +318,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5D529A23D2B56100A914D0 /* HTTPService.swift in Sources */,
+				8B5D528E23D2B19200A914D0 /* PublicTransport.swift in Sources */,
 				8B5D528323D2B06D00A914D0 /* UITableViewCell+Identifier.swift in Sources */,
 				8B5D527F23D2B04200A914D0 /* UITableView+Dequeue.swift in Sources */,
+				8B5D529C23D2B5CF00A914D0 /* HTTPError.swift in Sources */,
+				8B5D528623D2B0B400A914D0 /* UIColor+Custom.swift in Sources */,
+				8B5D529223D2B1A600A914D0 /* Event.swift in Sources */,
 				8B5D527B23D2ADB700A914D0 /* TodayViewController.swift in Sources */,
+				8B5D529623D2B50D00A914D0 /* User.swift in Sources */,
+				8B5D529023D2B19B00A914D0 /* Parking.swift in Sources */,
+				8B5D528A23D2B11C00A914D0 /* ParkingTableViewCell.swift in Sources */,
+				8B5D528C23D2B13A00A914D0 /* PublicTransportTableViewCell.swift in Sources */,
+				8B5D529E23D2BD4200A914D0 /* ScheduleService.swift in Sources */,
+				8B5D528823D2B10200A914D0 /* EventTableViewCell.swift in Sources */,
 				8B5D528123D2B05900A914D0 /* UITableView+RegisterCell.swift in Sources */,
+				8B5D529423D2B38B00A914D0 /* Schedule.swift in Sources */,
 				8B5D525323D2AC9C00A914D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

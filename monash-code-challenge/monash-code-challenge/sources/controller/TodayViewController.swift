@@ -16,15 +16,31 @@ final class TodayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSubviews()
+        loadContent()
     }
 
     private func setupSubviews() {
-        view.backgroundColor = #colorLiteral(red: 0.9724641442, green: 0.9726034999, blue: 0.9763546586, alpha: 1)
+        view.backgroundColor = .backgroundColor
+        tableView.backgroundColor = .backgroundColor
 
         view.addSubview(tableView)
         applyTableViewContraints()
+        registerTableViewCells()
+
         tableView.delegate = self
         tableView.dataSource = self
+    }
+
+    private func registerTableViewCells() {
+        tableView.register(cellClass: EventTableViewCell.self)
+        tableView.register(cellClass: ParkingTableViewCell.self)
+        tableView.register(cellClass: PublicTransportTableViewCell.self)
+    }
+
+    private func loadContent() {
+        ScheduleService.schedule { (result) in
+            print(result)
+        }
     }
 
 }
