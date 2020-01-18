@@ -19,6 +19,9 @@ struct HTTPService {
     ///   - result: Returns either a decoded object, or HTTPError.
     static func perform<T: Decodable>(_ request: URLRequest, decode: T.Type, result: @escaping (Result<T, HTTPError>) -> Void) {
 
+        // Here we would call ensure that we're showing the network activity indicator.
+        // While keeping track of the number of requests...
+
         let session = URLSession.shared
         let task = session.dataTask(with: request) { (data, response, error) in
 
